@@ -10,3 +10,7 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+ul li {
+    border: pink 1px solid;
+}
