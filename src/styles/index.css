@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -10,7 +9,34 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.imgHome {
+    background-image: url("https://wallpapers.com/images/featured/379r48zf0xa66b3k.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
 
 ul li {
-    border: pink 1px solid;
+    list-style: none;
+    padding: 10px;
+    background-color:  #f3d3bb ;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+input {
+    border: none;
+    width: 100%;
 }
